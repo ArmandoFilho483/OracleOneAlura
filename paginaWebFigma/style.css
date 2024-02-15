@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* border: 1px solid white; */
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    display: flex;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 50vw;
+}
+
+section.esquerda {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+section.direita {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+div {
+    color: white;
+}
+
+div.corpo-esquerda {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 482px;
+    width: 615px;
+    margin-right: 20px;
+}
+
+h1.titulo-h1 {
+    font-size: 26pt;
+    font-family: Krona One, sans-serif;
+    line-height: 60px;
+    letter-spacing: 2px;
+}
+
+h1 > strong {
+    color: #22D4FD;
+    font-family: Krona One, sans-serif;
+}
+
+p.paragrafo {
+    font-size: 18pt;
+    font-family: Montserrat, sans-serif;
+    font-weight: 10;
+    line-height: 35px;
+}
+
+div.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+div.botao-instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79px;
+    width: 280px;
+    border-radius: 16px;
+    background-color: #22D4FD;
+}
+
+a {
+    font-size: 24px;
+    text-decoration-line: none;
+    font-family: Montserrat, sans-serif;
+    color: #000000;
+    font-weight: 600;
+}
+
+div.botao-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79px;
+    width: 280px;
+    border-radius: 16px;
+    background-color: #22D4FD;
+}
+
+div.corpo-direita-imagem {
+    display: flex;
+    justify-content: flex-start;
+    height: 550px;
+    width: 488px;
+    margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+
+}

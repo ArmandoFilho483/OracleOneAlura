@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: #dadada;
+}
+
+main {
+    margin:  20px auto;
+}
+
+div.tituloDescricao {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 15px 5px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+div.botaoImc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+button.botao {
+    width: 200px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: rgb(81, 197, 255);
+    border: none;
+    box-shadow: 1px 1px 3px 1px rgb(0,0,0,0.300);
+    cursor: pointer;
+}
+
+div.colunas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: inline;
+    justify-content: start;
+    gap: 50px;
+    padding: 5px;
+}
+
+div.insersaoDeDados {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100px;
+    margin: 15px;
+}
+
+div.resultadoDoImc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 420px;
+    margin: 15px;
+    border: 1px solid black;
+
+}

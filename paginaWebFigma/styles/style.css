@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --cor-primaria: #22d4fd;
+    --bg-color: black;
+    --cor-secundaria: white;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -7,45 +13,44 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: var(--bg-color);
+    justify-content: center;
     align-items: center;
-    width: 100vw;
     box-sizing: border-box;
-    color: white;
+    color: var(--cor-secundaria);
 }
 
 header {
     display: flex;
     justify-content: center;
     width: 100%;
+    height: auto;
+    margin: 20px 0px;
 }
 
 nav.corpo__menu {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    height: 100px;
+    justify-content: center;
     width: 80%;
 }
 
 .menu {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     font-family: "Montserrat";
     font-size: 2.4rem;
+    gap: 40px;
     text-decoration: none;
     list-style-type: none;
-    height: 50px;
-    width: 500px;
 }
 
 .menu__li {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    width: 240px;
 }
 
 .link__menu {
@@ -70,7 +75,7 @@ nav.corpo__menu {
     width: 80%;
 }
 
-.container {
+main.container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -83,7 +88,7 @@ nav.corpo__menu {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    width: 615px;
+    width: 37%;
     gap: 40px;
 }
 
@@ -134,25 +139,55 @@ nav.corpo__menu {
 }
 
 .coluna__direita {
-    border-radius: 16px;
+    display: flex;
+    border-radius: 2%;
+    width: 30%;
+    padding: 20px 20px 0px 0px;
+    box-sizing: border-box;
+}
+
+.pseudo {
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 2%;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
     position: relative;
 }
 
-.coluna__direita::before {
+.pseudo::before {
     content: "";
-    border-radius: 16px;
+    border-radius: 2%;
     border: 4px solid #22d4fd;
     left: 20px;
     top: -20px;
     position: absolute;
-    height: 550px;
-    width: 488px;
+    height: 100%;
+    width: 100%;
     z-index: -1;
+    box-sizing: border-box;
 }
 
 .minha__imagem {
-    height: 550px;
-    width: 488px;
-    border-radius: 16px;
-    z-index: 0;
+    width: 100%;
+    border-radius: 2%;
+}
+
+@media (max-width: 1050px) {
+    main.container {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin: 0% 10%;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+ 
+    .coluna__esquerda {
+        align-items: center;
+        justify-content: center;
+    }
 }

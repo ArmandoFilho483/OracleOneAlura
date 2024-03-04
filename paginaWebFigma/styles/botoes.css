@@ -1,3 +1,9 @@
+:root {
+    --cor-primaria: #22d4fd;
+    --bg-color: black;
+    --cor-secundaria: white;
+}
+
 .container__botoes {
     display: flex;
     flex-wrap: nowrap;
@@ -14,7 +20,7 @@
     height: 68px;
     width: 378px;
     border-radius: 8px;
-    border: 2px solid #22d4fd;
+    border: 2px solid var(--cor-primaria);
     box-sizing: border-box;
     transition: 0.5s;
 }

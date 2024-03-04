@@ -1,36 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-Br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="favicon" href="">
-</head>
-<body>
-    <header>
-        
-    </header>
-    <main>
-        <section class="esquerda">
-            <div class="corpo-esquerda">
-                <div class="titulo">
-                    <h1 class="titulo-h1">Eleve seu negócio digital a outro nível <strong>com um Front-end de qualidade!</strong></h1>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portifólio ArmandoFilhoDev</title>
+        <link rel="stylesheet" href="./styles/reset.css" />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="imagem/x-icon" href="" />
+        <link rel="stylesheet" href="./styles/botoes.css">
+        <link rel="stylesheet" href="./styles/rodape.css">
+    </head>
+    <body>
+        <header>
+            <nav class="corpo__menu">
+                    <ul class="menu">
+                        <li class="menu__li"><a class="link__menu" href="./index.html">Home</a></li>
+                        <li class="menu__li"><a class="link__menu" href="./about.html">Sobre mim</a></li>
+                        <li class="menu__li"><a class="link__menu" href="./curriculo.html">Currículo</a></li>
+                    </ul>
+            </nav>
+        </header>
+        <hr class="linha">
+        <main  class="container">
+                <div class="coluna__esquerda">
+                    <div>
+                        <h1 class="titulo__principal">
+                            Eleve seu negócio digital a outro nível
+                            <strong class="destaque__titulo"
+                                >com um Front-end de qualidade!</strong>
+                        </h1>
+                    </div>
+                    <div>
+                        <p class="paragrafo">
+                            Olá! Sou Armando Patricio, desenvolvedor Front-end com
+                            especialidade em React, HTML e CSS. Ajudo pequenos
+                            negócios e designers a colocarem em prática boas
+                            ideias. Vamos conversar?
+                        </p>
+                    </div>
+                    <div class="container__botoes">
+                        <h2 class="titulo__secundario">Acesse minhas redes:</h2>
+                        <div class="estilo__botoes">
+                            <a class="link__botoes"
+                                href="https://www.instagram.com/armandopatricioff/" target="_blank" rel="noopener noreferrer"><img class="imagens__links" src="./assets/instagram-24.png" alt="">Instagram</a>
+                        </div>
+                        <div class="estilo__botoes">
+                            <a class="link__botoes" href="https://github.com/ArmandoFilho483" target="_blank" rel="noopener noreferrer"><img class="imagens__links" src="./assets/github-24.png" alt="">GitHub</a>
+                        </div>
+                        <div class="estilo__botoes">
+                            <a class="link__botoes" href="https://www.linkedin.com/in/armando-patricio/" target="_blank" rel="noopener noreferrer"><img class="imagens__links" src="./assets/linkedin-24.png" alt="">Linkedin</a>
+                        </div>
+                        <div class="estilo__botoes">
+                            <a class="link__botoes" href="https://wa.me/5585991584767" target="_blank" rel="noopener noreferrer"><img class="imagens__links" src="./assets/icons8-whatsapp-30.png" alt="">WhatsApp</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="paragrafo">
-                    <p class="paragrafo">Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+                <div class="coluna__direita">
+                    <img
+                        class="minha__imagem"
+                        src="./assets/foto2.jpg"
+                        alt="imagem em preto e branco de uma mulher de cabelo preto em frente a um notebook e sorrindo."/>
                 </div>
-                <div class="botoes">
-                    <div class="botao-instagram"><a href="https://www.instagram.com/armandopatricioff/">Instagram</a></div>
-                    <div class="botao-github"><a href="https://github.com/ArmandoFilho483">GitHub</a></div>
-                </div>
-            </div>
-        </section>
-        <section class="direita">
-            <div class="corpo-direita-imagem">
-                <img src="img/Imagem.png" alt="imagem em preto e branco de uma mulher de cabelo preto em frente a um notebook e sorrindo.">
-            </div>
-        </section>
-    </main>
-</body>
+        </main>
+        <footer class="rodape">
+            <h4 class="texto__rodape">Desenvolvido por Armando Filho.</h4>
+        </footer>
+    </body>
 </html>

@@ -37,7 +37,7 @@ nav.corpo__menu {
     text-decoration: none;
     list-style-type: none;
     height: 50px;
-    width: 300px;
+    width: 500px;
 }
 
 .menu__li {
@@ -91,6 +91,7 @@ nav.corpo__menu {
     font-size: 3.6rem;
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
+    font-style: normal;
     line-height: 56px;
 }
 
@@ -102,11 +103,12 @@ nav.corpo__menu {
 }
 
 .titulos__texto {
-    font-size: 3.8rem;
+    font-size: 2.6rem;
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
-    line-height: 56px;
+    line-height: 36px;
     color: #22d4fd;
+    text-align: justify;
 }
 
 .paragrafo {
@@ -114,6 +116,15 @@ nav.corpo__menu {
     font-family: 'Montserrat', sans-serif;
     line-height: 36px;
     font-weight: 100;
+}
+
+.paragrafo__sobre__mim {
+    font-size: 2.4rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 36px;
+    font-weight: 100;
+    text-align: justify;
+    margin-bottom: 40px;
 }
 
 .titulo__secundario {

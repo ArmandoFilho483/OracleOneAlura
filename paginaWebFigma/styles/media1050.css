@@ -1,0 +1,26 @@
+
+@media (max-width: 1050px) {
+    header {
+        height: auto;
+    }
+
+    main.container {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .coluna__esquerda {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .coluna__direita {
+        width: 80%;
+    }
+}

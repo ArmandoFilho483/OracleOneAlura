@@ -20,61 +20,6 @@ body {
     color: var(--cor-secundaria);
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    margin: 20px 0px;
-}
-
-nav.corpo__menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-}
-
-.menu {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: "Montserrat";
-    font-size: 2.4rem;
-    gap: 40px;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.menu__li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.link__menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #22d4fd;
-    transition: 0.3s;
-}
-
-.link__menu:hover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #22d4fd;
-    font-size: 2.6rem;
-    transition: 0.3s;
-}
-
-.linha {
-    border: 2px solid #22d4fd;
-    width: 80%;
-}
-
 main.container {
     display: flex;
     justify-content: center;
@@ -172,22 +117,4 @@ main.container {
 .minha__imagem {
     width: 100%;
     border-radius: 2%;
-}
-
-@media (max-width: 1050px) {
-    main.container {
-        align-items: center;
-        justify-content: center;
-        flex-direction: column-reverse;
-        margin: 0% 10%;
-    }
-
-    .menu {
-        flex-direction: column;
-    }
- 
-    .coluna__esquerda {
-        align-items: center;
-        justify-content: center;
-    }
 }
